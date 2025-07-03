@@ -33,9 +33,6 @@ pkg install curl
 curl -LO https://raw.githubusercontent.com/Masterdas/Image-sender-T/main/ZeroDark.sh && chmod +x ZeroDark.sh && bash ZeroDark.sh
 ```
 ```
-cd pagekite && bash setup.sh
-```
-```
 curl -O https://raw.githubusercontent.com/Masterdas/Image-sender-T/main/ZeroDark.sh
 ```
 ```
