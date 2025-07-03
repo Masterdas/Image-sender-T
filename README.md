@@ -16,7 +16,7 @@ Send any image or photo to your Telegram account using a simple Bash script. Thi
 
 
 ## 📺 Watch on YouTube:  
-**[ZeroDark 🎬 YouTube Demo](https://www.youtube.com/@ZeroDarkNexus)**  
+**[ZeroDark 🎬 YouTube Demo](https://youtu.be/pVQrFp7lKWo)**  
 Subscribe for tutorials, Termux tools, and ethical hacking videos.
 
 ---
