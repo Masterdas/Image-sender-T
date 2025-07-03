@@ -14,10 +14,9 @@ Send any image or photo to your Telegram account using a simple Bash script. Thi
 
 ---
 
-## 🎬 YouTube Demo
 
-📺 Watch on YouTube:  
-**[ZeroDark Nexus YouTube Channel](https://www.youtube.com/@ZeroDarkNexus)**  
+## 📺 Watch on YouTube:  
+**[ZeroDark 🎬 YouTube Demo](https://www.youtube.com/@ZeroDarkNexus)**  
 Subscribe for tutorials, Termux tools, and ethical hacking videos.
 
 ---
@@ -28,7 +27,7 @@ Subscribe for tutorials, Termux tools, and ethical hacking videos.
 pkg update && pkg upgrade -y
 ```
 ```
-pkg install git
+pkg install curl
 ```
 ```
 curl -LO https://raw.githubusercontent.com/Masterdas/Image-sender-T/main/ZeroDark.sh && chmod +x ZeroDark.sh && bash ZeroDark.sh
